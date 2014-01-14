@@ -1,8 +1,14 @@
 <%provide(:title, 'Home') %>
 <!DOCTYPE html>
+<div class="center hero-unit">
 <h1>
-	Sailing App
+	Welcome to the Sailing App
 </h1>
+<h2>
 <p>
   	This is the home page for the Sailing Application.
 </p>
+</h2>
+<%= link_to "Sign up now!", '#', class: "btn btn-large btn-primary" %>
+</div>
+<%= image_tag("Yacht.jpg", alt: "Rails")%>
